@@ -1,0 +1,2 @@
+rootProject.name='Electra'
+include ':app'
