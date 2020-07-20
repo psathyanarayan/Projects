@@ -11,7 +11,7 @@ def btnClick():
         pic = ImageTk.PhotoImage(img)
         ig = Label(image = pic)
         ig.image = pic
-        ig.place(x=120,y=120)
+        ig.place(x=130,y=120)
         display.display(img.resize((50,50)))
     elif x==2:
         img = Image.open("2.png")
@@ -19,7 +19,7 @@ def btnClick():
         pic = ImageTk.PhotoImage(img)
         ig = Label(image = pic)
         ig.image = pic
-        ig.place(x=120,y=120)
+        ig.place(x=130,y=120)
         display.display(img.resize((50,50)))
     elif x==3:
         img = Image.open("3.png")
@@ -27,7 +27,7 @@ def btnClick():
         pic = ImageTk.PhotoImage(img)
         ig = Label(image = pic)
         ig.image = pic
-        ig.place(x=120,y=120)
+        ig.place(x=130,y=120)
         display.display(img.resize((50,50)))
     elif x==4:
         img = Image.open("4.png")
@@ -35,7 +35,7 @@ def btnClick():
         pic = ImageTk.PhotoImage(img)
         ig = Label(image = pic)
         ig.image = pic
-        ig.place(x=120,y=120)
+        ig.place(x=130,y=120)
         display.display(img.resize((50,50)))
     elif x==5:
         img = Image.open("5.png")
@@ -43,7 +43,7 @@ def btnClick():
         pic = ImageTk.PhotoImage(img)
         ig = Label(image = pic)
         ig.image = pic
-        ig.place(x=120,y=120)
+        ig.place(x=130,y=120)
         display.display(img.resize((50,50)))
     else:
        img = Image.open("6.png")
@@ -51,7 +51,7 @@ def btnClick():
        pic = ImageTk.PhotoImage(img)
        ig = Label(image = pic)
        ig.image = pic
-       ig.place(x=120,y=120)
+       ig.place(x=130,y=120)
        display.display(img.resize((50,50)))    
             
 tk = tkinter.Tk()
